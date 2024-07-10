@@ -1,0 +1,125 @@
+.container button{
+    background-color:  black; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    
+  }
+  .container button:hover {
+    opacity: 0.7;
+  }
+  .search button{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    left:50%;
+  }
+  .search button:hover {
+    opacity: 0.7;
+  }
+  .details-container button{
+    background-color:  black; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    
+  }
+  .details-container button:hover {
+    opacity: 0.7;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: calc(33.33% - 20px);
+    padding:10px 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .cardButton {
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 90%;
+    font-size: 18px;
+  }
+  
+  .cardButton:hover {
+    opacity: 0.7;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .pagination li a {
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .pagination li.active a {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .pagination li.disabled a {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  ul.pagination li a i {
+    font-size: 12px;
+    padding: 0;
+}
